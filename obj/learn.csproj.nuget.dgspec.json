@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Home/SmartContract/learn/learn.csproj": {}
+  },
+  "projects": {
+    "/Users/Home/SmartContract/learn/learn.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Home/SmartContract/learn/learn.csproj",
+        "projectName": "learn",
+        "projectPath": "/Users/Home/SmartContract/learn/learn.csproj",
+        "packagesPath": "/Users/Home/.nuget/packages/",
+        "outputPath": "/Users/Home/SmartContract/learn/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Home/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Meadow.UnitTestTemplate": {
+              "target": "Package",
+              "version": "[0.3.225, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
