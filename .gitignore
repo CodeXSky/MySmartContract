@@ -1,2 +1,8 @@
 node_modules
 secrets.json
+.vscode
+artifacts
+build
+.openzeppelin
+cache
+obj
